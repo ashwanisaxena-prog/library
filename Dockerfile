@@ -1,4 +1,5 @@
-FROM apache/camel-k-runtime-jvm:2.7.0
+#FROM apache/camel-k-runtime-jvm:2.7.0
+FROM quay.io/apache/camel-k-runtime-jvm:2.7.0
 
 # Copy your local Maven repository into the image
 #COPY .m2/repository /tmp/artifacts/m2
